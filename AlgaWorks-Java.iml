@@ -8,5 +8,6 @@
     <orderEntry type="jdk" jdkName="corretto-11" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="xstream-1.4.18" level="project" />
+    <orderEntry type="library" name="gson-2.8.8" level="project" />
   </component>
 </module>
