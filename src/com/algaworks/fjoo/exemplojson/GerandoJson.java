@@ -27,5 +27,14 @@ public class GerandoJson {
         String json = gson.toJson(cliente);
 
         System.out.println(json);
+
+        System.out.println();
+        System.out.println("---------------------------------");
+        System.out.println();
+
+        Cliente c2 = gson.fromJson(json,Cliente.class);
+
+        System.out.println(c2.getNome());
+        System.out.println(c2.getTelefones().get(0).getNumero());
     }
 }
